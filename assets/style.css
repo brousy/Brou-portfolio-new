@@ -1,4 +1,4 @@
-*{
+* {
     box-sizing: border-box;
 }
 
@@ -7,14 +7,32 @@ body {
     line-height: normal;
     font-family: 'Courier New', Courier, monospace;
 }
+
 header {
-
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
-header h1 {
-
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    gap: 10px;
 }
 
-nav {
+.hero {
+    background-image: url("./images/tortillas\ hero\ image.jpg");
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: -900px -1000px;
+}
+
+#bio {
+    display:flex;
     
 }
