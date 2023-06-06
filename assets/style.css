@@ -34,5 +34,13 @@ nav ul {
 
 #bio {
     display:flex;
-    
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+#work {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
