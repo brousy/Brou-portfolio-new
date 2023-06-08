@@ -10,6 +10,7 @@ body {
 
 header {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
@@ -35,51 +36,57 @@ nav :hover {
     background-position: -900px -1000px;
 }
 
-
-/*  */
-/* #bio { */
-/* display: flex; */
-/* justify-content: space-around; */
-/* align-items: center; */
-
-/* } */
-/* 
-#work {
+.section-box {
     display: flex;
-    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
     align-items: center;
-} */
 
-/* .about h2 {
-    border-right: 1px dodgerblue;
-    height: 100%;
-} */
+}
+
+.section-box h2 {
+    flex:0 0 30%;
+    text-align: right;
+    padding-right: 5px;
+
+}
+
+/* look at margin to seperate sections */
+.section-box div {
+    flex: 0 0 65%;
+
+}
 
 .links {
-    height:200px;
-    width: 200px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-
-
-aside {
-    width: 40%;
-    padding-left: 0.5rem;
-    margin-left: 0.5rem;
-    float: left;
-    box-shadow: inset 5px 0 5px -5px #29627e;
-    font-style: italic;
-    color: #29627e;
-}
-
-img {
-    object-fit: contain;
-    width: 250px;
+.work-box {
+    border: 1px solid black;
+    background-color: blueviolet;
+    color: black;
+    min-height: 200px;
+    max-height: 200px;
     display: flex;
+    align-items: flex-end;
+    flex-basis: calc(50% - 1em);
+
+
 }
-/* div .links {
-    background-image: url(/assets/images/icecreamspoon\ place\ holder.jpg);
-    background-repeat: no-repeat;
-    width: 10px;
-    height: 20px;
-} */
+
+.work-box:first-child {
+    min-height: 400px;
+    flex-basis: 100%;
+
+}
+
+.surf {
+    background-image: url("./images/icecreamspoon\ place\ holder.jpg")
+}
+
+.work-box {
+    padding: 10px;
+}
