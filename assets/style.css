@@ -25,10 +25,11 @@ nav ul {
     list-style: none;
     gap: 10px;
 }
+/* This changes the color of the buttons when I hover over the nav bar */
 nav :hover {
     color: blueviolet;
 }
-
+/* This adds banner image across the screen */
 .hero {
     background-image: url("./images/tortillas\ hero\ image.jpg");
     height: 400px;
@@ -84,7 +85,13 @@ nav :hover {
 }
 
 .surf {
-    background-image: url("./images/icecreamspoon\ place\ holder.jpg")
+    background-image: url("./images/icecreamspoon\ place\ holder.jpg");
+    background-size: contain;
+}
+
+.surf1 {
+    background-image: url("./images/SquareLogoforCrop.jpg");
+    background-size: contain;
 }
 
 .work-box {
@@ -93,4 +100,8 @@ nav :hover {
 
 .selfie {
 background-image: url("./images/Brou\ avatar.JPG");
+background-size: cover;
+max-width: 350px;
+background-repeat: no-repeat;
+height: 400px;
 }
