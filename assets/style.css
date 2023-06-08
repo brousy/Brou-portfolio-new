@@ -32,15 +32,47 @@ nav ul {
     background-position: -900px -1000px;
 }
 
-#bio {
-    display:flex;
-    justify-content: space-around;
-    align-items: center;
 
-}
+/*  */
+/* #bio { */
+/* display: flex; */
+/* justify-content: space-around; */
+/* align-items: center; */
+
+/* } */
 
 #work {
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+.about h2 {
+    border-right: 1px dodgerblue;
+    height: 100%;
+}
+
+/* .links {
+    height:200px;
+    width: 200px;
+} */
+
+
+
+aside {
+    width: 40%;
+    padding-left: 0.5rem;
+    margin-left: 0.5rem;
+    float: left;
+
+    box-shadow: inset 5px 0 5px -5px #29627e;
+    font-style: italic;
+    color: #29627e;
+}
+
+div a {
+    background-image: url(/assets/images/icecreamspoon\ place\ holder.jpg);
+    background-repeat: no-repeat;
+    width: 10px;
+    height: 20px;
 }
