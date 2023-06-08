@@ -1,6 +1,6 @@
-/* * {
+* {
     box-sizing: border-box;
-} */
+}
 
 body {
     background-color: white;
@@ -89,4 +89,8 @@ nav :hover {
 
 .work-box {
     padding: 10px;
+}
+
+.selfie {
+background-image: url("./images/Brou\ avatar.JPG");
 }
