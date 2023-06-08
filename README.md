@@ -24,6 +24,9 @@ Features
 Click on the NAV and scroll to that section.
 Click on an app to get to one of the repositories I've created. 
 
+Live Link to Application:
+https://brousy.github.io/Brou-portfolio-new/
+
 Screen Shots
 ![screenshot](./assets/images/screen1.jpg)
 ![screenshot](./assets/images/screen2.jpg)
