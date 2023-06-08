@@ -96,6 +96,7 @@ nav :hover {
 
 .work-box {
     padding: 10px;
+    margin: 5px;
 }
 
 .selfie {
@@ -103,5 +104,5 @@ background-image: url("./images/Brou\ avatar.JPG");
 background-size: cover;
 max-width: 350px;
 background-repeat: no-repeat;
-height: 400px;
+height: 350px;
 }
